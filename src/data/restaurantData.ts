@@ -1,3 +1,11 @@
+import biryaniHeroImg from '../assets/images/shekhar_biryani_hero_1791080779217.jpg';
+import blueLagoonComboImg from '../assets/images/shekhar_blue_lagoon_combo_1791080815344.jpg';
+import chickenMomoImg from '../assets/images/shekhar_chicken_momo_1791080793334.jpg';
+import friedRiceChillyImg from '../assets/images/shekhar_fried_rice_chilly_1791080805054.jpg';
+import interiorDiningImg from '../assets/images/shekhar_interior_dining_1791082223291.jpg';
+import realBiryaniServeImg from '../assets/images/shekhar_real_biryani_serve_1791082236636.jpg';
+import storefrontNightImg from '../assets/images/shekhar_storefront_night_1791082211949.jpg';
+
 export interface MenuItem {
   id: string;
   name: string;
@@ -48,9 +56,9 @@ export const RESTAURANT_INFO = {
   googleMapsUrl: "https://maps.google.com/?q=Sadiya+Police+Station+Chapakhowa+Assam",
   deliveryChargeUnder1Km: 40,
   minDeliveryOrder: 299,
-  storefrontNightImage: "/src/assets/images/shekhar_storefront_night_1791082211949.jpg",
-  interiorDiningImage: "/src/assets/images/shekhar_interior_dining_1791082223291.jpg",
-  realBiryaniImage: "/src/assets/images/shekhar_real_biryani_serve_1791082236636.jpg",
+  storefrontNightImage: storefrontNightImg,
+  interiorDiningImage: interiorDiningImg,
+  realBiryaniImage: realBiryaniServeImg,
 };
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -67,7 +75,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "STANDOUT",
     rating: 4.9,
     reviewsCount: 28,
-    image: "/src/assets/images/shekhar_real_biryani_serve_1791082236636.jpg",
+    image: realBiryaniServeImg,
     highlight: "Standout Choice · Less Oil Recipe",
   },
   {
@@ -83,7 +91,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "POPULAR",
     rating: 4.8,
     reviewsCount: 19,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "Wok-Tossed · Light & Fresh",
   },
   {
@@ -98,7 +106,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isVeg: false,
     rating: 4.7,
     reviewsCount: 14,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "Double Farm Egg Toss",
   },
   {
@@ -113,7 +121,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isVeg: true,
     rating: 4.6,
     reviewsCount: 11,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "100% Pure Veg · Crisp Veggies",
   },
   {
@@ -129,7 +137,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "MUST TRY",
     rating: 4.8,
     reviewsCount: 12,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "Rich Fresh Paneer",
   },
   {
@@ -145,7 +153,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "POPULAR",
     rating: 4.7,
     reviewsCount: 16,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "Non-Greasy · Slurpy Delight",
   },
   {
@@ -160,7 +168,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isVeg: true,
     rating: 4.6,
     reviewsCount: 10,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "Light & Crunchy",
   },
   {
@@ -176,7 +184,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "BESTSELLER",
     rating: 4.9,
     reviewsCount: 24,
-    image: "/src/assets/images/shekhar_chicken_momo_1791080793334.jpg",
+    image: chickenMomoImg,
     highlight: "Juicy Filling · Fiery Dip",
   },
   {
@@ -192,7 +200,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "POPULAR",
     rating: 4.8,
     reviewsCount: 21,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "7 Pieces · Sizzling Glaze",
   },
   {
@@ -208,7 +216,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "CHEF SPECIAL",
     rating: 4.9,
     reviewsCount: 18,
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     highlight: "7 Pieces · Curry Leaf Temper",
   },
   {
@@ -222,7 +230,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isVeg: true,
     rating: 4.6,
     reviewsCount: 13,
-    image: "/src/assets/images/shekhar_blue_lagoon_combo_1791080815344.jpg",
+    image: blueLagoonComboImg,
     highlight: "Crispy & Non-Oily",
   },
   {
@@ -236,7 +244,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isVeg: true,
     rating: 4.8,
     reviewsCount: 15,
-    image: "/src/assets/images/shekhar_blue_lagoon_combo_1791080815344.jpg",
+    image: blueLagoonComboImg,
     highlight: "Chilled & Refreshing",
   },
   {
@@ -251,7 +259,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badge: "TODAY SPECIAL",
     rating: 5.0,
     reviewsCount: 22,
-    image: "/src/assets/images/shekhar_blue_lagoon_combo_1791080815344.jpg",
+    image: blueLagoonComboImg,
     highlight: "Special Combo · Save ₹10",
   }
 ];
@@ -281,7 +289,7 @@ export const PRESET_COMBOS: ComboDeal[] = [
     comboPrice: 100,
     savings: 10,
     badgeText: "TODAY'S SPECIAL",
-    image: "/src/assets/images/shekhar_blue_lagoon_combo_1791080815344.jpg",
+    image: blueLagoonComboImg,
     isVeg: true,
   },
   {
@@ -294,7 +302,7 @@ export const PRESET_COMBOS: ComboDeal[] = [
     comboPrice: 145,
     savings: 15,
     badgeText: "ROYAL COMBO",
-    image: "/src/assets/images/shekhar_biryani_hero_1791080779217.jpg",
+    image: biryaniHeroImg,
     isVeg: false,
   },
   {
@@ -307,7 +315,7 @@ export const PRESET_COMBOS: ComboDeal[] = [
     comboPrice: 100,
     savings: 10,
     badgeText: "EVENING FAVORITE",
-    image: "/src/assets/images/shekhar_chicken_momo_1791080793334.jpg",
+    image: chickenMomoImg,
     isVeg: false,
   },
   {
@@ -320,7 +328,7 @@ export const PRESET_COMBOS: ComboDeal[] = [
     comboPrice: 199,
     savings: 21,
     badgeText: "WOK SPECIAL",
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     isVeg: false,
   },
   {
@@ -333,7 +341,7 @@ export const PRESET_COMBOS: ComboDeal[] = [
     comboPrice: 110,
     savings: 10,
     badgeText: "CHEF'S PAIRING",
-    image: "/src/assets/images/shekhar_fried_rice_chilly_1791080805054.jpg",
+    image: friedRiceChillyImg,
     isVeg: false,
   },
 ];

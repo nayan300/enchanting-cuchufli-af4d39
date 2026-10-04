@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Star, Flame, Sparkles, Heart } from 'lucide-react';
 import { RESTAURANT_INFO } from '../data/restaurantData';
+import biryaniHeroImg from '../assets/images/shekhar_biryani_hero_1791080779217.jpg';
 
 interface HeroBannerProps {
   onOrderNow: () => void;
@@ -82,7 +83,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
             {/* Visual Frame */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-500/40 aspect-16/10 sm:aspect-16/11 bg-stone-800">
               <img
-                src="/src/assets/images/shekhar_biryani_hero_1791080779217.jpg"
+                src={biryaniHeroImg}
                 alt="Shekhar's Special Chicken Biryani with Less Oil"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
