@@ -1,0 +1,6 @@
+{
+  "name": "Shekhar's Food Club",
+  "description": "Fresh, flavourful food with less oil in Sadiya, Chapakhowa, Assam. Signature Biryani, Momos, Indo-Chinese and Combos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
